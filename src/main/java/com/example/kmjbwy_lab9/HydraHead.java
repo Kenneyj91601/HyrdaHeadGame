@@ -14,9 +14,10 @@ public class HydraHead {
     private int currentGridY;
     public ImageView imageView;
 
+
     public HydraHead(Image image, int headSize) {
         this.headSize = headSize;
-        imageView = new ImageView(image);
+        this.imageView = new ImageView(image);
         imageView.setFitWidth(40);
         imageView.setFitHeight(40);
     }

@@ -40,9 +40,9 @@ public class HydraHeadsfactory {
         else{
             return new HydraHead(headSize6, 6);
         }
+         //Image image = new Image("file:src/main/resources/HydraHeads/HeadSize1.png");
+         //ImageView imageView = new ImageView(image);
 
      }
-    //Image image = new Image("file:src/main/resources/HydraHeads/HeadSize1.png");
-    //ImageView imageView = new ImageView(image);
 
 }
