@@ -27,6 +27,7 @@ public class HydraGameApplication extends Application {
         Scene scene = new Scene(fxmlloader.load(), 800, 850);
         stage.setScene(scene);
         stage.setTitle("Hydra Game");
+        stage.getIcons().add(new Image("file:src/main/resources/HydraHeads/HydraIcon.png"));
         stage.show();
 
     }

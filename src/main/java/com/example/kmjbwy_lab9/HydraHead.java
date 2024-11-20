@@ -18,8 +18,9 @@ public class HydraHead {
     public HydraHead(Image image, int headSize) {
         this.headSize = headSize;
         this.imageView = new ImageView(image);
-        imageView.setFitWidth(40);
-        imageView.setFitHeight(40);
+        this.imageView.setFitWidth(40);
+        this.imageView.setFitHeight(40);
+
     }
 
     public int getHeadSize() {
@@ -37,7 +38,7 @@ public class HydraHead {
     public void putIn(int gridX, int gridY, GridPane board) {
         currentGridX = gridX;
         currentGridY = gridY;
-        board = null;
+        board.add(imageView, currentGridX, currentGridY);
     }
 
 }
